@@ -1,8 +1,10 @@
 import 'package:flame/game.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:trex_game/trex_game.dart';
 
 void main() {
-  TRexGame game = TRexGame();
-  runApp(GameWidget(game: game));
+  final tRexGame = TRexGame();
+  runApp(
+    GameWidget(game: tRexGame),
+  );
 }
