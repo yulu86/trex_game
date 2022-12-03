@@ -30,7 +30,7 @@ class Horizon extends PositionComponent with HasGameRef<TRexGame> {
   @override
   Future<void> onLoad() async {
     add(cloudManager);
-    add(obstacleManager);
+    // add(obstacleManager);
   }
 
   @override
